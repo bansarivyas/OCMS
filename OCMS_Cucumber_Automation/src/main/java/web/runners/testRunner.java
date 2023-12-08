@@ -4,8 +4,8 @@
 //import io.cucumber.testng.CucumberOptions;
 //
 //@CucumberOptions(features = { "classpath:BackOffice/Signup.feature" },glue = {
-//		"web/stepdef" }, 
-plugin = { "pretty", "json:target/Society.json" })
+//		"web/stepdef" }, plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter :\",\"pretty"})
+
 
 //
 //public class testRunner extends AbstractTestNGCucumberTests{
